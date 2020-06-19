@@ -37,7 +37,6 @@ public class JavaStreams {
 
 	//14. reduction - summary statistics
 	private static void test14() {
-
 		IntSummaryStatistics summaryStatistics = IntStream.of(1, 2, 3, 4, 5).summaryStatistics();
 		System.out.println(summaryStatistics);
 	}
